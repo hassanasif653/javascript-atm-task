@@ -1,43 +1,49 @@
-Simple ATM Simulation
-Project Overview
-This is a simple ATM machine simulation built using HTML, CSS, and JavaScript. It allows users to interact with a basic ATM interface by inserting a card, entering a PIN, and performing common banking transactions.
+# 💳 Simple ATM Simulation
 
-Features
-Insert card and enter PIN authentication
+A simple **ATM machine simulation** built with **HTML, CSS, and JavaScript**.  
+This project provides an interactive ATM interface where users can insert a card, enter a PIN, and perform common banking transactions.
 
-Balance inquiry to display current account balance
+---
 
-Cash deposit and withdrawal with amount input and validation
+## ✨ Features
+- 🔑 **Card Insertion & PIN Authentication** – Secure access with PIN validation  
+- 💰 **Balance Inquiry** – View current account balance  
+- ➕ **Cash Deposit** – Add funds with input validation  
+- 💸 **Cash Withdrawal** – Withdraw funds with real-time balance updates  
+- ❌ **Cancel Option** – Reset and restart the ATM session  
+- 🖥️ **User-Friendly Interface** – Clean design with alerts for quick feedback  
 
-Cancel option to reset and restart the session
+---
 
-Clear and user-friendly interface with simple alerts for feedback
+## ⚙️ How It Works
+1. Click **Insert Card** to begin.  
+2. Enter your **PIN** when prompted.  
+3. If the PIN is correct ✅ → ATM menu options appear.  
+4. Choose one of the following:  
+   - **Balance Inquiry**  
+   - **Deposit** (enter an amount to add funds)  
+   - **Withdrawal** (enter an amount to deduct funds)  
+   - **Cancel** (return to the start state)  
+5. Balance updates dynamically after transactions.  
 
-How It Works
-User clicks "Insert Card" to start and is prompted to enter their PIN.
+---
 
-If the PIN matches the stored value, the user can choose from four ATM options.
+## 🛠️ Technologies Used
+- **HTML** → Page structure  
+- **CSS** → Styling & visual design  
+- **JavaScript** → Core logic, DOM manipulation, user interaction  
 
-Deposit and Withdrawal require inputting an amount to update the balance.
+---
 
-The balance is updated dynamically based on user transactions.
-
-Cancelling returns the user to the start state.
-
-Technologies Used
-HTML for page structure
-
-CSS for styling and visual design
-
-JavaScript for core logic, DOM manipulation, and user interaction
-
-How to Run
-Clone or download the repository.
-
+## 🚀 How to Run
+1. Clone or download this repository  
+   ```bash
+   git clone https://github.com/hassanasif653/javascript-atm-task.git
 Open index.html in any modern web browser.
 
-Interact with the ATM simulator in the browser window.
+Start interacting with the ATM simulator! 🎉
 
-Author
+👨‍💻 Author
+M. Hassan Asif
 
-[M.HASSAN ASIF]
+⭐ If you like this project, don’t forget to star the repo!
